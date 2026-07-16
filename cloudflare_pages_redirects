@@ -13,6 +13,11 @@
 /web/configuration/oauth-2.0    /web/config/identity-and-access-management/oauth-2.0
 /web/inputs/insecure-json-web-tokens    /web/inputs/jwt
 /web/inputs/xss-cross-site-scripting    /web/inputs/xss
+/ad/movement/kerberos/timeroast    /ad/movement/kerberos/roasting/timeroast
+/ad/movement/kerberos/asreqroast    /ad/movement/kerberos/roasting/asreqroast
+/ad/movement/kerberos/asreproast    /ad/movement/kerberos/roasting/asreproast
+/ad/movement/kerberos/kerberoast    /ad/movement/kerberos/roasting/kerberoast
+/ad/movement/kerberos/samaccountname-spoofing    /ad/movement/kerberos/principal-confusion/samaccountname-spoofing
 
 # Dynamic redirects
 /a-d/movement/domain-settings/*   /ad/movement/builtins/:splat
